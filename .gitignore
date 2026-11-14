@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+# Raw scrape: holds the site's free text, photo links and contact details. Never commit it.
+data/raw/

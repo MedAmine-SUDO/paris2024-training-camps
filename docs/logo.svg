@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" role="img" aria-label="Training camps explorer logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#115e59"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="url(#bg)"/>
+  <!-- scattered camp dots -->
+  <g fill="#2dd4bf" opacity="0.55">
+    <circle cx="40" cy="58" r="5"/><circle cx="150" cy="48" r="4"/><circle cx="156" cy="120" r="5"/>
+    <circle cx="34" cy="132" r="4"/><circle cx="62" cy="160" r="3.5"/><circle cx="132" cy="160" r="3.5"/>
+  </g>
+  <!-- map pin -->
+  <path d="M96 34c-26 0-46 20-46 45 0 33 46 79 46 79s46-46 46-79c0-25-20-45-46-45z" fill="#f8fafc"/>
+  <!-- medal inside the pin -->
+  <path d="M84 52 L96 70 L108 52" fill="none" stroke="#f97316" stroke-width="7" stroke-linejoin="round"/>
+  <circle cx="96" cy="84" r="17" fill="#f97316"/>
+  <circle cx="96" cy="84" r="9.5" fill="none" stroke="#fff7ed" stroke-width="3"/>
+</svg>
