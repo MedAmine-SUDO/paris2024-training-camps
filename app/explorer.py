@@ -61,7 +61,7 @@ k1, k2, k3, k4, k5 = st.columns(5)
 k1.metric("Camps", f"{len(view):,}")
 k2.metric("Regions", view.region.nunique())
 k3.metric("Disciplines", len({d for ds in view.disciplines for d in ds}))
-k4.metric("Facilities", f"{int(view.n_facilities.sum()):,}")
+k4.metric("Facilities", f"{len(view_facilities):,}")
 k5.metric("Para-sport camps", int((view.para_disciplines.str.len() > 0).sum()))
 
 if view.empty:
