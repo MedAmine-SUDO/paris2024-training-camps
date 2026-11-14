@@ -12,6 +12,8 @@ and an **interactive map explorer**, built on a tested scraping pipeline.
 
 <br/>
 
+[![Open the explorer](https://img.shields.io/badge/Open_the_explorer-→-111827?style=for-the-badge&logo=streamlit&logoColor=FF4B4B)](https://paris2024-training-camps.streamlit.app/)
+&nbsp;
 [![Tests](https://img.shields.io/github/actions/workflow/status/MedAmine-SUDO/paris2024-training-camps/tests.yml?branch=main&style=for-the-badge&label=tests)](https://github.com/MedAmine-SUDO/paris2024-training-camps/actions/workflows/tests.yml)
 &nbsp;
 [![License: MIT](https://img.shields.io/badge/license-MIT-111827?style=for-the-badge)](LICENSE)
@@ -85,6 +87,12 @@ flowchart LR
 
 ## 🏁 Get started
 
+**No install needed:** open the live explorer at **[paris2024-training-camps.streamlit.app](https://paris2024-training-camps.streamlit.app/)**.
+
+> 💤 Free Streamlit apps sleep when nobody has visited for a while. If you see a "wake up" button, click it and give it about 30 seconds.
+
+To run it locally:
+
 ```bash
 git clone https://github.com/MedAmine-SUDO/paris2024-training-camps.git
 cd paris2024-training-camps
@@ -102,11 +110,11 @@ camps[camps.disciplines.str.contains("Judo")].groupby("region").size().sort_valu
 ```
 
 <details>
-<summary><b>☁️ Deploy the explorer on Streamlit Community Cloud (free)</b></summary>
+<summary><b>☁️ Deploy your own copy on Streamlit Community Cloud (free)</b></summary>
 <br/>
 
-1. Sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
-2. **Create app** → pick this repository, branch `main`, main file `app/explorer.py`.
+1. Fork this repository, then sign in at [share.streamlit.io](https://share.streamlit.io) with GitHub.
+2. **Create app** → pick your fork, branch `main`, main file `app/explorer.py`, Python 3.12.
 3. Deploy. Dependencies come from `requirements.txt`.
 
 </details>
@@ -211,7 +219,7 @@ The first version was a one-off Selenium script. It worked, but it opened a new 
 
 ## 🗺️ Roadmap
 
-- [ ] Deploy the explorer on Streamlit Community Cloud
+- [x] Deploy the explorer on Streamlit Community Cloud
 - [ ] Distance search: "camps within 50 km of…"
 - [ ] Enrich with transport access (nearest train station, airport)
 - [ ] Publish the dataset on Kaggle / data.gouv.fr
