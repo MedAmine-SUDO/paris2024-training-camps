@@ -30,6 +30,12 @@ and an **interactive map explorer**, built on a tested scraping pipeline.
 
 <img src="docs/screenshot.png" alt="The explorer: filters, key numbers, a map of every camp in France, and charts" width="100%" />
 
+<br/><br/>
+
+<img src="docs/demo.gif" alt="Filtering to judo and para-sport camps, then browsing the charts and a camp's climate profile" width="100%" />
+
+<sub>Filter by discipline and para-sport, then browse the charts and each camp's climate profile.</sub>
+
 </div>
 
 <br/>
